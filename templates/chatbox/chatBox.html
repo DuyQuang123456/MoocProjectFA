@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chat Box</title>
+    <link rel="stylesheet" href="../../static/css/boxChat.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="../../static/plugin/css/bootstrap.css" />
+</head>
+
+<body>
+    <div id="center-text">
+        <h2>ChatBox UI</h2>
+        <p>Message send and scroll to bottom enabled </p>
+    </div>
+    <div id="body">
+
+        <div id="chat-circle" class="btn btn-raised">
+            <div id="chat-overlay"></div>
+            <!-- <i class="material-icons">speaker_phone</i> -->
+            <i class="fab fa-rocketchat"></i>
+        </div>
+
+        <div class="chat-box">
+            <div class="chat-box-header">
+                ChatBot
+                <span class="chat-box-toggle"><i class="far fa-times-circle"></i></span>
+            </div>
+            <div class="chat-box-body">
+                <div class="chat-box-overlay">
+                </div>
+                <div class="chat-logs">
+
+                </div><!--chat-log -->
+            </div>
+            <div class="chat-input">
+                <form>
+                    <input type="text" id="chat-input" placeholder="Send a message..." />
+                    <button type="submit" class="chat-submit" id="chat-submit"><i
+                            class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../static/js/chatBox.js"></script>
+    <script type="text/javascript" src="../../static/plugin/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../../static/plugin/js/bootstrap.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
