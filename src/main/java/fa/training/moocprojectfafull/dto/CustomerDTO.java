@@ -1,4 +1,4 @@
-package fa.training.dto;
+package fa.training.moocprojectfafull.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;

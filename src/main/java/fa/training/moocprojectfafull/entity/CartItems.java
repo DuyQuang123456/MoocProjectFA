@@ -1,6 +1,6 @@
-package fa.training.entity;
+package fa.training.moocprojectfafull.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -23,6 +23,8 @@ public class CartItems implements Serializable {
     private Long productId;
     @Column(name = "quantity")
     private Integer quantity;
+    @Column(name = "status")
+    private Boolean status;
 
     @ManyToOne
     @JoinColumn(name = "id_customer")

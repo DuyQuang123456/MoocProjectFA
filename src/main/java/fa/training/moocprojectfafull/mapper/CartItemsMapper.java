@@ -1,7 +1,8 @@
-package fa.training.mapper;
+package fa.training.moocprojectfafull.mapper;
 
-import fa.training.dto.CartItemsDTO;
-import fa.training.entity.CartItems;
+
+import fa.training.moocprojectfafull.dto.CartItemsDTO;
+import fa.training.moocprojectfafull.entity.CartItems;
 import org.springframework.stereotype.Service;
 
 @Service

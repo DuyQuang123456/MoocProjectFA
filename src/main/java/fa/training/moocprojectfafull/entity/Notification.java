@@ -1,6 +1,8 @@
-package fa.training.entity;
+package fa.training.moocprojectfafull.entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
+
+import fa.training.moocprojectfafull.entity.Customer;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

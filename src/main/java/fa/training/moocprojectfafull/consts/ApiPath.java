@@ -1,4 +1,4 @@
-package fa.training.consts;
+package fa.training.moocprojectfafull.consts;
 
 public interface ApiPath {
 

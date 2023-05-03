@@ -1,4 +1,4 @@
-package fa.training.mapper;
+package fa.training.moocprojectfafull.mapper;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
